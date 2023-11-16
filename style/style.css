@@ -142,7 +142,7 @@ textarea {
 /* TERMINA INDEX */
 /* SECCION MENSAJES */
 .inputMsj {
-  background-color: #303c52;
+  background-color: #a9b6ce;
 }
 
 /*TERMINA SECCION MENSAJES */
@@ -291,6 +291,39 @@ textarea {
   height: 100%;
 }
 
+#video1 {
+  animation-name: desaparece;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+#video2 {
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+/*ANIMACION PAGINA DE VIDEOS*/
+.Fondo {
+  background-image: linear-gradient(135deg, #31737e, rgba(49, 130, 116, 0.9882352941), #768e3f, #5b4881, #735fb0, #7055a2, #57a580);
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
 /*TERMINA VIDEOS RECOMENDADOS */
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

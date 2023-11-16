@@ -89,7 +89,7 @@ textarea{
         background-color: black;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-   .visible{
+    .visible{
             opacity: 1;
             visibility: visible;
         }
@@ -290,6 +290,41 @@ textarea{
         left: 0;
         width: 100%;
         height: 100%;
+    }
+}
+#video1{
+    animation-name: desaparece;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#video2{
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+/*ANIMACION PAGINA DE VIDEOS*/
+.Fondo{
+    background-image: linear-gradient(135deg
+    ,#31737e, #318274fc, #768e3f, #5b4881,
+    #735fb0, #7055a2, #57a580);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 100% 50%;
     }
 }
 
