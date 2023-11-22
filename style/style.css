@@ -29,10 +29,19 @@ header {
 input {
   background-color: #a9b6ce;
   color: black;
+  border-radius: 10px;
 }
 
 textarea {
   background-color: #a9b6ce;
+  border-radius: 2.5px;
+}
+
+button {
+  background-color: #a9b6ce;
+  color: black;
+  border-radius: 2.5px;
+  margin: 2px;
 }
 
 /*TERMINA PARTES HTML */
@@ -84,7 +93,7 @@ textarea {
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   }
-  .nav.visible {
+  .nav .visible {
     opacity: 1;
     visibility: visible;
   }

@@ -38,9 +38,17 @@ header{
 input{
     background-color: $color-inputs;
     color: black;
+    border-radius: 10px;
 }
 textarea{
     background-color: $color-inputs;
+    border-radius: 2.5px;
+}
+button{
+    background-color:$color-inputs ;
+    color: black;
+    border-radius: 2.5px;
+    margin: 2px;
 }
 
  /*TERMINA PARTES HTML */
@@ -88,8 +96,7 @@ textarea{
         bottom: 0;
         background-color: black;
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-    .visible{
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);.visible{
             opacity: 1;
             visibility: visible;
         }
@@ -111,7 +118,6 @@ textarea{
     justify-content: center;
     margin: 3px;
 }
-
  /*TERMINA BOTON FOOTER */
 
  /* INDEX */
